@@ -35,7 +35,7 @@ class BurcListi extends StatelessWidget {
       var burcKicikResimler =
           "assets/images/${Strings.BURC_ADLARI[i].toLowerCase()}${i + 1}.png";
       var burcBoyukResimler =
-          "assets/images/${Strings.BURC_ADLARI[i].toLowerCase()}_boyuk${i + 1}.png";
+          "assets/images/${Strings.BURC_ADLARI[i].toLowerCase()}_buyuk${i + 1}.png";
       Burc elaveOlunacaq = Burc(burcAdi, burcTarixi, burcMelumat,
           burcKicikResimler, burcBoyukResimler);
       muveqqeti.add(elaveOlunacaq);
