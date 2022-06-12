@@ -17,9 +17,8 @@ class BurcItem extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: ListTile(
             onTap: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) =>
-                      BurcDetay(secilenBurc: listelenenBurc)));
+              Navigator.pushNamed(context, "/burcDetay",
+                  arguments: listelenenBurc);
             },
             leading: Image.asset(
               listelenenBurc.burcBalacaShekli,
